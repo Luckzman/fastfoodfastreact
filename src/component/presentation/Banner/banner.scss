@@ -1,0 +1,70 @@
+/* SHOWCASE SECTION */
+.showcase {
+  height: 90vh;
+  background-image: url("https://res.cloudinary.com/dx0nauane/image/upload/v1552050505/image-12.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 90vh;
+    width: 100%;
+    
+    .showcase-container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      .showcase-ad {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        
+        h1 {
+          font-family: fantasy;
+          text-transform: uppercase;
+          font-size: 3.5rem;
+          color: #eee;
+          line-height: 4.5rem;
+        }
+        
+        p {
+          color: #eee;
+          font-family: "M PLUS Rounded 1c", sans-serif;
+          padding: 10px 0;
+        }
+        
+        .showcase-input {
+          margin-top: 20px;
+          line-height: 3rem;
+          
+          input {
+            border: none;
+            background-color: transparent;
+            color: #eee;
+            font-size: 1.2rem;
+            border-bottom: 1px solid #ccc;
+          }
+          
+          input:focus {
+            outline-color: transparent;
+            border-bottom: 1px solid #00be29;
+          }
+
+          button {
+            background-color: #00be29;
+            color: #eee;
+            padding: 5px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 10px;
+            margin-left: 10px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

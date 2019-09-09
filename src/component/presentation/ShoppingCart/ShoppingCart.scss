@@ -1,0 +1,28 @@
+.shoppingCart-container{
+  height: 100%;
+  vertical-align: middle;
+  position: relative;
+  font-size: 0.8rem;
+  padding: 5px;
+  line-height: 1.5;
+  img{
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  padding: 10px;
+  }
+  .count{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    .cart-count{
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+
+.auth-btn-container{
+  width:100%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+  .signup{
+    width: 55%;
+    height: 50px;
+    font-size: 16px;
+    color: #ececec;
+    padding: 12px 11px;
+    background-color: rgb(0, 99, 25);
+    border: 1px solid rgb(0, 99, 25);
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  .login{
+    width: 49%;
+    height: 40px;
+    color: #888;
+    font-size: 16px;
+    padding: 11px 10px;
+    background-color: #f1f1f1;
+    border: 1px solid rgb(0, 99, 25);
+    box-sizing: border-box;
+  }
+}

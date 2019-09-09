@@ -1,0 +1,30 @@
+.alert {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+
+  .alert-content {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 100px);
+    width: 80%;
+    padding: 30px;
+    background-color: rgb(102, 168, 3);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(82, 82, 82);
+
+    .close {
+      font-size: 25px;
+      cursor: pointer;
+      // color: darkgrey;
+    }
+  }
+}

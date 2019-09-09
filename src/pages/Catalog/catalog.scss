@@ -1,0 +1,21 @@
+.username{
+  color: #fff;
+}
+
+.catalog-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 25px;
+  width: 90%;
+  margin: 0 auto;
+
+  .food-category{
+    width: 100%;
+    grid-column-start: span 3;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,156 @@
+.order-card {
+  max-width: 300px;
+  background-color: #ccc;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  box-sizing: border-box;
+  
+  .order-img {
+    position: relative;
+    max-width: 300px;
+    max-height: 300px;
+    
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 20px 20px 0 0;
+    }
+
+    a {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      transform: translate(-50%, -50%);
+      border: 1px solid rgb(255, 252, 252);
+      padding: 10px;
+      background-color: rgba(156, 156, 156, 0.5);
+      z-index: 1;
+    }
+
+    .order-img:after {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      content: "";
+      border-radius: 20px 20px 0 0;
+      background-color: rgba(0, 0, 0, 0.664);
+    }
+  }
+  
+  .card-content {
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    
+    h3 {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      padding: 10px 0;
+    }
+    
+    .star-rating {
+      margin-top: 20px;
+    }
+    
+    p {
+      line-height: 1.5rem;
+    }
+  }
+}
+
+
+// /* POPULAR ORDER SECTION */
+// .top-order{
+//   background: #6495ed;
+//   padding: 50px 0 20px;
+// }
+// .top-order h1{
+//   font-size: 2.5rem;
+//   text-align: center;
+//   text-transform: uppercase;
+//   font-family: 'Courier New', Courier, monospace;
+//   font-stretch: condensed;
+//   font-weight: 700;
+//   color: #eee;
+// }
+// .top-order p{
+//   font-size: 1.1rem;
+//   text-align: center;
+//   color: #222;
+//   margin: 10px 0;
+// }
+// .top-order .order-row{
+//   display: flex;
+//   flex-direction: column;
+//   margin-top: 30px;
+// }
+// .top-order .order-card{
+//   max-width: 300px;
+//   background-color: #ccc;
+//   border-radius: 20px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   margin: 20px auto;
+//   box-sizing: border-box;
+// }
+// .top-order .order-img{
+//   position: relative;
+//   max-width: 300px;
+//   max-height: 300px;
+// }
+// .top-order .order-img:after{
+//   position: absolute;
+//   top: 0px;
+//   left:0px;
+//   height: 100%;
+//   width: 100%;
+//   content: "";
+//   border-radius: 20px 20px 0 0;
+//   background-color: rgba(0, 0, 0, 0.664);
+  
+// }
+// .top-order .order-img a{
+//   position: absolute;
+//   top: 75%;
+//   left: 50%;
+//   color: rgb(255, 255, 255);
+//   text-align: center;
+//   transform: translate(-50%, -50%);
+//   border: 1px solid rgb(255, 252, 252);
+//   padding: 10px;
+//   background-color: rgba(156, 156, 156, 0.5);
+//   z-index: 1;
+// }
+// .top-order .order-card img{
+//   width:100%;
+//   height:300px;
+//   object-fit: cover;
+//   border-radius: 20px 20px 0 0;
+// }
+// .top-order .card-content{
+//   width: 90%;
+//   padding: 10px;
+//   text-align: center;
+// }
+// .top-order .card-content h3{
+//   font-size: 1.5rem;
+//   text-transform: uppercase;
+//   padding: 10px 0;
+// }
+// .top-order .star-rating{
+//   margin-top: 20px;
+// }
+// .top-order .card-content p{
+//   line-height: 1.5rem;
+// }
